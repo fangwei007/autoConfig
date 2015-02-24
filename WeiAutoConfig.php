@@ -130,9 +130,9 @@ EOT;
         $this->serverString
         {
             define("ENV", "local");
-            define("BASE_URL", "http://local.endgameiscoming.dev");
-            define("RETURN_URL", "http://local.endgameiscoming.dev");
-            define("FB_APP", "758786784162393");
+            define("BASE_URL", "http://local.wei.dev");
+            define("RETURN_URL", "http://local.wei.dev");
+            define("FB_APP", "");
             define("CDN_URL","video/");
             define("DB_SERVER", '$this->hostname');
             define("DB_USER", '$this->dbUser');
