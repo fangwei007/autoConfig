@@ -7,3 +7,5 @@ vendor/
 /nbproject/private/
 nbproject
 .DS_Store
+autoConfig
+my_Qt

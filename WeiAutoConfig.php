@@ -97,6 +97,9 @@ class WeiAutoConfig {
     public function addHeader() {
         if (file_exists($this->location)) {
             echo "文件已经存在！\n";
+            $file = file_get_contents($this->location);
+            preg_replace("/\A(\$mysqli)\.+ }\Z/i", '', $file);
+            var_dump($file);
             exit();
         } else {
             $handle = fopen($this->location, 'a+');
